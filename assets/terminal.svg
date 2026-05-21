@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 336" width="800" height="336" fill="none">
+
+  <!-- Terminal window -->
+  <rect rx="12" width="800" height="336" fill="#0d1117"/>
+
+  <!-- Title bar -->
+  <rect rx="12" width="800" height="36" fill="#161b22"/>
+  <rect y="24" width="800" height="12" fill="#161b22"/>
+
+  <!-- Traffic light buttons -->
+  <circle cx="24" cy="18" r="6" fill="#ff5f57"/>
+  <circle cx="44" cy="18" r="6" fill="#febc2e"/>
+  <circle cx="64" cy="18" r="6" fill="#28c840"/>
+
+  <!-- Title bar text -->
+  <text x="400" y="23" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#8b949e" text-anchor="middle">~/projects</text>
+
+  <!-- Command: cat README.json -->
+  <text y="66" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="14">
+    <tspan x="24" fill="#7ee787">&#x276F;</tspan><tspan fill="#79c0ff"> ~/projects</tspan><tspan fill="#c9d1d9"> cat README.json</tspan>
+  </text>
+
+  <!-- JSON output with syntax highlighting (indent via explicit x, not whitespace) -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.6s" begin="0.4s" fill="freeze"/>
+
+    <!-- { -->
+    <text y="92" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="14">
+      <tspan x="24" fill="#c9d1d9">{</tspan>
+    </text>
+
+    <!-- "role" -->
+    <text y="116" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="14">
+      <tspan x="44" fill="#7ee787">"role"</tspan><tspan fill="#c9d1d9">: [</tspan><tspan fill="#a5d6ff">"CTO"</tspan><tspan fill="#c9d1d9">, </tspan><tspan fill="#a5d6ff">"technical lead"</tspan><tspan fill="#c9d1d9">, </tspan><tspan fill="#a5d6ff">"architect"</tspan><tspan fill="#c9d1d9">],</tspan>
+    </text>
+
+    <!-- "languages" -->
+    <text y="140" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="14">
+      <tspan x="44" fill="#7ee787">"languages"</tspan><tspan fill="#c9d1d9">: [</tspan><tspan fill="#a5d6ff">"TypeScript"</tspan><tspan fill="#c9d1d9">, </tspan><tspan fill="#a5d6ff">"Rust"</tspan><tspan fill="#c9d1d9">, </tspan><tspan fill="#a5d6ff">"Go"</tspan><tspan fill="#c9d1d9">, </tspan><tspan fill="#a5d6ff">"Python"</tspan><tspan fill="#c9d1d9">, </tspan><tspan fill="#a5d6ff">"C#"</tspan><tspan fill="#c9d1d9">, </tspan><tspan fill="#a5d6ff">"C++"</tspan><tspan fill="#c9d1d9">],</tspan>
+    </text>
+
+    <!-- "domains" -->
+    <text y="164" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="14">
+      <tspan x="44" fill="#7ee787">"domains"</tspan><tspan fill="#c9d1d9">: [</tspan><tspan fill="#a5d6ff">"full-stack"</tspan><tspan fill="#c9d1d9">, </tspan><tspan fill="#a5d6ff">"cloud-native"</tspan><tspan fill="#c9d1d9">, </tspan><tspan fill="#a5d6ff">"ai-native"</tspan><tspan fill="#c9d1d9">, </tspan><tspan fill="#a5d6ff">"devops"</tspan><tspan fill="#c9d1d9">],</tspan>
+    </text>
+
+    <!-- "infra" -->
+    <text y="188" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="14">
+      <tspan x="44" fill="#7ee787">"infra"</tspan><tspan fill="#c9d1d9">: [</tspan><tspan fill="#a5d6ff">"AWS"</tspan><tspan fill="#c9d1d9">, </tspan><tspan fill="#a5d6ff">"GCP"</tspan><tspan fill="#c9d1d9">, </tspan><tspan fill="#a5d6ff">"Azure"</tspan><tspan fill="#c9d1d9">, </tspan><tspan fill="#a5d6ff">"Docker"</tspan><tspan fill="#c9d1d9">],</tspan>
+    </text>
+
+    <!-- "iac" -->
+    <text y="212" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="14">
+      <tspan x="44" fill="#7ee787">"iac"</tspan><tspan fill="#c9d1d9">: [</tspan><tspan fill="#a5d6ff">"Terraform"</tspan><tspan fill="#c9d1d9">, </tspan><tspan fill="#a5d6ff">"OpenTofu"</tspan><tspan fill="#c9d1d9">, </tspan><tspan fill="#a5d6ff">"AWS CDK"</tspan><tspan fill="#c9d1d9">, </tspan><tspan fill="#a5d6ff">"Pulumi"</tspan><tspan fill="#c9d1d9">],</tspan>
+    </text>
+
+    <!-- "ai" -->
+    <text y="236" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="14">
+      <tspan x="44" fill="#7ee787">"ai"</tspan><tspan fill="#c9d1d9">: [</tspan><tspan fill="#a5d6ff">"LLM apps"</tspan><tspan fill="#c9d1d9">, </tspan><tspan fill="#a5d6ff">"agents"</tspan><tspan fill="#c9d1d9">, </tspan><tspan fill="#a5d6ff">"MCP"</tspan><tspan fill="#c9d1d9">, </tspan><tspan fill="#a5d6ff">"RAG"</tspan><tspan fill="#c9d1d9">],</tspan>
+    </text>
+
+    <!-- "status" -->
+    <text y="260" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="14">
+      <tspan x="44" fill="#7ee787">"status"</tspan><tspan fill="#c9d1d9">: </tspan><tspan fill="#a5d6ff">"shipping"</tspan>
+    </text>
+
+    <!-- } -->
+    <text y="284" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="14">
+      <tspan x="24" fill="#c9d1d9">}</tspan>
+    </text>
+  </g>
+
+  <!-- New prompt with blinking cursor -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="1.2s" fill="freeze"/>
+    <text y="312" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="14">
+      <tspan x="24" fill="#7ee787">&#x276F;</tspan><tspan fill="#79c0ff"> ~/projects</tspan>
+    </text>
+    <rect x="148" y="298" width="9" height="17" fill="#c9d1d9">
+      <animate attributeName="opacity" values="1;1;0;0" dur="1.2s" begin="1.5s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+</svg>
